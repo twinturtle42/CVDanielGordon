@@ -7,6 +7,7 @@
   border-radius: 8px;
   margin-bottom: 20px;
 }
+
 .card-user {
   position: absolute;
   right: 10px;
@@ -14,25 +15,24 @@
 }
 .card-category {
   position: absolute;
-  bottom: 10px;
   left: 10px;
+  top: 10px;
   font-size: 10px;
   text-transform: uppercase;
 }
 .card-description {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  
-}
-.card-description h2 {
-  font-size: 24px;
-}
-.card-description p {
-  font-size: 13px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-weight: normal;
+  bottom: 1px;
+  left: 10px; 
+  h2 {
+    font-size: 24px;
+    p {
+      font-size: 13px;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-weight: normal;
+    }
   }
+}
 
 .card-link {
   position: absolute;
