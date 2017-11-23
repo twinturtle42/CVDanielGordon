@@ -3,8 +3,11 @@
   display: grid;
   grid-template-columns: 400px 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
-  height: 600px;
+  height: calc(100vh - 70px);
   padding: 30px;
+  .btn-default {
+    border: 1px solid
+  }
 }
 .profile .left-col {
   grid-row: 1 / span 2;
@@ -29,5 +32,12 @@
 @media (max-width: 940px) {
   .profile {
     display: block;
+    margin-bottom: 20px;
+    .stat {
+      display: none
+    }
+
   }
+
 }
+
