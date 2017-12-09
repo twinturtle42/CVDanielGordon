@@ -36,8 +36,16 @@
     .stat {
       display: none
     }
-
   }
-
 }
+@media (max-width: 650px) {
+  .profile {
+    display: block;
+    margin-bottom: 20px;
+    .stat, .description {
+      display: none
+    }
+  }
+}
+
 
