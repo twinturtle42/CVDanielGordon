@@ -780,6 +780,12 @@ form.signup button.btn {
   height: 160px;
 }
 
+@media (min-width: 992px) {
+  .skill-column {
+    max-width: 21%;
+  }
+}
+
 /*
  * Facts
  * --------------------------------------------------------- */
