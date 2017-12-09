@@ -786,6 +786,12 @@ form.signup button.btn {
   }
 }
 
+@media (max-width: 768px) {
+  .skills-ul {
+    margin: auto;
+  }
+}
+
 /*
  * Facts
  * --------------------------------------------------------- */
