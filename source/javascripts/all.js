@@ -4,4 +4,4 @@
 //= require skel
 //= require util
 //= require main
-
+//= require smooth-scroll
