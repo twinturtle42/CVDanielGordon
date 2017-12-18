@@ -1,3 +1,7 @@
 //= require jquery
 //= require bootstrap-sprockets
-//= require_tree .
+//= require poptrox
+//= require skel
+//= require util
+//= require main
+//= require smooth-scroll

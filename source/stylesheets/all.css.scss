@@ -8,6 +8,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300italic,700,400italic,300);
+@import "portfolio/main";
 
 // Our CSS
 @import "layouts/*";
@@ -35,4 +36,9 @@
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+#portfolio {
+  padding-bottom: 0px;
+  padding-top: 45px;
 }
